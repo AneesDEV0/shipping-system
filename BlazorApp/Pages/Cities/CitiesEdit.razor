@@ -1,0 +1,89 @@
+﻿@page "/City/Edit"
+@page "/City/Edit/{Id:guid}"
+@inject ICitiesService service
+@inject ICountriesService countryService
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header text-dark">
+            <h3 class="card-title mb-0">
+                @(Id.HasValue && Id.Value != Guid.Empty ? "Edit City" : "Add City")
+            </h3>
+        </div>
+        <div class="card-body">
+            <EditForm Model="@city" OnValidSubmit="Save">
+                <DataAnnotationsValidator></DataAnnotationsValidator>
+                <ValidationSummary></ValidationSummary>
+
+                <div class="mb-3">
+                    <label for="CityEname" class="form-label">City Name (EN)</label>
+                    <InputText id="CityEname" placeholder="Enter City Name"
+                               @bind-Value="city.CityEname" class="form-control" />
+                    <ValidationMessage For="() => city.CityEname" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="CityAname" class="form-label">City Name (AR)</label>
+                    <InputText id="CityAname" placeholder="ادخل اسم المدينة"
+                               @bind-Value="city.CityAname" class="form-control" />
+                    <ValidationMessage For="() => city.CityAname" class="text-danger" />
+                </div>
+                <div class="mb-3">
+                    <label for="CountryEname" class="form-label">Country</label>
+                    <InputSelect id="Country" @bind-Value="city.CountryId" class="form-control">
+                        <option value="0">Select a Country</option>
+                        @if(Countries is not null)
+                        {
+                            @foreach (var cat in Countries)
+                            {
+                                <option value="@cat.Id">@cat.CountryEname</option>
+                            }
+                        }
+                    </InputSelect>
+
+                    <ValidationMessage For="() => city.CountryEname" class="text-danger" />
+
+                </div>
+
+                <div class="d-grid gap-2 mt-4">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        @(Id.HasValue && Id.Value != Guid.Empty ? "Update" : "Save")
+                    </button>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public Guid? Id { get; set; }
+    [Inject]
+    public NavigationManager NavigationManager { get; set; }
+
+    public CityDto city { get; set; } = new CityDto();
+    public List<CountryDto> Countries { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        if (Id.HasValue && Id.Value != Guid.Empty)
+        {
+            var CityResponse = await service.GetById(Id.Value);
+            if (CityResponse.Success && CityResponse.Data != null)
+                city = CityResponse.Data;
+
+
+        }
+        var CountryResponse = await countryService.GetAll();
+        if (CountryResponse.Success && CountryResponse.Data != null)
+            Countries = CountryResponse.Data;
+    }
+
+    private async Task Save()
+    {
+        if (Id.HasValue && Id.Value != Guid.Empty)
+            await service.Update(Id.Value, city);
+        else
+            await service.Add(city);
+        NavigationManager.NavigateTo("Cities");
+
+    }
+}

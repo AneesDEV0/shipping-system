@@ -1,0 +1,301 @@
+﻿@page "/roadmap"
+@inject IJSRuntime JS
+
+<PageTitle>Learning Roadmap Builder</PageTitle>
+
+<div class="container-fluid">
+    <h3 class="mb-3">Learning Roadmap Builder</h3>
+
+    <div class="row">
+        <!-- Control Panel -->
+        <div class="col-md-3">
+            <div class="card mb-3">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Add New Block</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label">Block Text:</label>
+                        <input @bind="newBlockText" type="text" class="form-control" placeholder="Enter block text" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Color:</label>
+                        <select @bind="newBlockColor" class="form-select">
+                            <option value="lightblue">Light Blue</option>
+                            <option value="lightgreen">Light Green</option>
+                            <option value="lightyellow">Light Yellow</option>
+                            <option value="lightcoral">Light Coral</option>
+                            <option value="lightpink">Light Pink</option>
+                            <option value="lightsalmon">Light Salmon</option>
+                            <option value="lightgray">Light Gray</option>
+                            <option value="lightsteelblue">Light Steel Blue</option>
+                            <option value="lavender">Lavender</option>
+                            <option value="peachpuff">Peach Puff</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Shape:</label>
+                        <select @bind="newBlockShape" class="form-select">
+                            <option value="RoundedRectangle">Rounded Rectangle</option>
+                            <option value="Rectangle">Rectangle</option>
+                            <option value="Circle">Circle</option>
+                            <option value="Diamond">Diamond</option>
+                            <option value="Triangle">Triangle</option>
+                            <option value="Hexagon">Hexagon</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">URL (Optional):</label>
+                        <input @bind="newBlockUrl" type="url" class="form-control" placeholder="https://example.com" />
+                    </div>
+
+                    <button @onclick="AddNewBlock" class="btn btn-primary w-100">
+                        <i class="bi bi-plus-circle"></i> Add Block
+                    </button>
+                </div>
+            </div>
+
+            <div class="card mb-3">
+                <div class="card-header bg-info text-white">
+                    <h5 class="mb-0">Actions</h5>
+                </div>
+                <div class="card-body">
+                    <button @onclick="DeleteSelected" class="btn btn-danger w-100 mb-2">
+                        <i class="bi bi-trash"></i> Delete Selected
+                    </button>
+
+                    <button @onclick="ClearAll" class="btn btn-warning w-100 mb-2">
+                        <i class="bi bi-x-circle"></i> Clear All
+                    </button>
+
+                    <hr />
+
+                    <button @onclick="SaveToLocalStorage" class="btn btn-success w-100 mb-2">
+                        <i class="bi bi-save"></i> Save to Browser
+                    </button>
+
+                    <button @onclick="LoadFromLocalStorage" class="btn btn-secondary w-100 mb-2">
+                        <i class="bi bi-folder-open"></i> Load from Browser
+                    </button>
+
+                    <button @onclick="DownloadAsFile" class="btn btn-outline-primary w-100 mb-2">
+                        <i class="bi bi-download"></i> Download JSON
+                    </button>
+
+                    <button @onclick="LoadFromFile" class="btn btn-outline-secondary w-100">
+                        <i class="bi bi-upload"></i> Upload JSON
+                    </button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-secondary text-white">
+                    <h5 class="mb-0">Instructions</h5>
+                </div>
+                <div class="card-body small">
+                    <ul class="mb-0">
+                        <li><strong>Add blocks:</strong> Use the form above</li>
+                        <li><strong>Connect blocks:</strong> Drag from one block to another</li>
+                        <li><strong>Edit text:</strong> Double-click a block</li>
+                        <li><strong>Move blocks:</strong> Drag and drop</li>
+                        <li><strong>Right-click:</strong> Context menu for more options</li>
+                        <li><strong>Click block:</strong> Opens URL if set</li>
+                        <li><strong>Delete:</strong> Select and press Delete key</li>
+                        <li><strong>Zoom:</strong> Use mouse wheel</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Diagram Container -->
+        <div class="col-md-9">
+            <div class="card">
+                <div class="card-header bg-dark text-white d-flex justify-content-between align-items-center">
+                    <h5 class="mb-0">Roadmap Canvas</h5>
+                    @if (!string.IsNullOrEmpty(statusMessage))
+                    {
+                        <span class="badge @statusMessageClass">@statusMessage</span>
+                    }
+                </div>
+                <div class="card-body p-0">
+                    <div id="roadmapDiagram" style="width: 100%; height: 700px; background-color: #f8f9fa;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string newBlockText = "New Block";
+    private string newBlockColor = "lightblue";
+    private string newBlockShape = "RoundedRectangle";
+    private string newBlockUrl = "";
+
+    private string statusMessage = "";
+    private string statusMessageClass = "bg-success";
+
+    private IJSObjectReference? roadmapModule;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            try
+            {
+                // Initialize the GoJS diagram
+                await JS.InvokeVoidAsync("RoadmapJS.init");
+                ShowStatus("Diagram initialized successfully!", true);
+
+                // Try to load saved data from LocalStorage
+                var loaded = await JS.InvokeAsync<bool>("RoadmapJS.loadFromLocalStorage");
+                if (loaded)
+                {
+                    ShowStatus("Previous roadmap loaded from browser storage", true);
+                }
+            }
+            catch (Exception ex)
+            {
+                ShowStatus($"Error initializing diagram: {ex.Message}", false);
+            }
+        }
+    }
+
+    private async Task AddNewBlock()
+    {
+        try
+        {
+            if (string.IsNullOrWhiteSpace(newBlockText))
+            {
+                ShowStatus("Please enter block text", false);
+                return;
+            }
+
+            var urlParam = string.IsNullOrWhiteSpace(newBlockUrl) ? null : newBlockUrl;
+
+            await JS.InvokeVoidAsync("RoadmapJS.addBlock",
+                newBlockText,
+                newBlockColor,
+                urlParam,
+                newBlockShape);
+
+            ShowStatus($"Added block: {newBlockText}", true);
+
+            // Clear the text field for next entry
+            newBlockText = "New Block";
+            newBlockUrl = "";
+        }
+        catch (Exception ex)
+        {
+            ShowStatus($"Error adding block: {ex.Message}", false);
+        }
+    }
+
+    private async Task DeleteSelected()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("RoadmapJS.deleteSelected");
+            ShowStatus("Selected items deleted", true);
+        }
+        catch (Exception ex)
+        {
+            ShowStatus($"Error deleting: {ex.Message}", false);
+        }
+    }
+
+    private async Task SaveToLocalStorage()
+    {
+        try
+        {
+            var json = await JS.InvokeAsync<string>("RoadmapJS.saveRoadmap", false);
+            if (!string.IsNullOrEmpty(json))
+            {
+                ShowStatus("Roadmap saved to browser storage", true);
+            }
+        }
+        catch (Exception ex)
+        {
+            ShowStatus($"Error saving: {ex.Message}", false);
+        }
+    }
+
+    private async Task LoadFromLocalStorage()
+    {
+        try
+        {
+            var loaded = await JS.InvokeAsync<bool>("RoadmapJS.loadFromLocalStorage");
+            if (loaded)
+            {
+                ShowStatus("Roadmap loaded from browser storage", true);
+            }
+            else
+            {
+                ShowStatus("No saved roadmap found", false);
+            }
+        }
+        catch (Exception ex)
+        {
+            ShowStatus($"Error loading: {ex.Message}", false);
+        }
+    }
+
+    private async Task DownloadAsFile()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("RoadmapJS.saveRoadmap", true);
+            ShowStatus("Roadmap downloaded as JSON file", true);
+        }
+        catch (Exception ex)
+        {
+            ShowStatus($"Error downloading: {ex.Message}", false);
+        }
+    }
+
+    private async Task LoadFromFile()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("RoadmapJS.loadFromFile");
+            ShowStatus("Select a JSON file to load", true);
+        }
+        catch (Exception ex)
+        {
+            ShowStatus($"Error loading file: {ex.Message}", false);
+        }
+    }
+
+    private async Task ClearAll()
+    {
+        try
+        {
+            bool confirmed = await JS.InvokeAsync<bool>("confirm", "Are you sure you want to clear the entire diagram?");
+            if (confirmed)
+            {
+                await JS.InvokeVoidAsync("RoadmapJS.clearDiagram");
+                ShowStatus("Diagram cleared", true);
+            }
+        }
+        catch (Exception ex)
+        {
+            ShowStatus($"Error clearing diagram: {ex.Message}", false);
+        }
+    }
+
+    private void ShowStatus(string message, bool isSuccess)
+    {
+        statusMessage = message;
+        statusMessageClass = isSuccess ? "bg-success" : "bg-danger";
+        StateHasChanged();
+
+        // Clear status message after 3 seconds
+        Task.Delay(3000).ContinueWith(_ =>
+        {
+            statusMessage = "";
+            InvokeAsync(StateHasChanged);
+        });
+    }
+}

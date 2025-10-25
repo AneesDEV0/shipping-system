@@ -1,0 +1,1125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\msi\\source\\repos\\Shipping\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\models\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\models\\currentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\services\\auth\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\services\\auth\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\services\\contextconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\services\\contextconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\msi\\source\\repos\\shipping\\businesslayer\\services\\refreshtokenretriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\refreshtokenretriverservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\services\\registerservcieshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\services\\registerservcieshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCABA309-58E0-452F-99CF-4BBF02CBC817}|Shipping\\ShippingApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\shipping\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCABA309-58E0-452F-99CF-4BBF02CBC817}|Shipping\\ShippingApp.csproj|solutionrelative:shipping\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\msi\\source\\repos\\shipping\\businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\businesslayer.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053E8EAF-9227-4EA3-B6F8-62070F5B51B9}|DataAccess\\DataAccess.csproj|c:\\users\\msi\\source\\repos\\shipping\\dataaccess\\context\\shippingcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053E8EAF-9227-4EA3-B6F8-62070F5B51B9}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\context\\shippingcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053E8EAF-9227-4EA3-B6F8-62070F5B51B9}|DataAccess\\DataAccess.csproj|c:\\users\\msi\\source\\repos\\shipping\\dataaccess\\context\\shippingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053E8EAF-9227-4EA3-B6F8-62070F5B51B9}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\context\\shippingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{053E8EAF-9227-4EA3-B6F8-62070F5B51B9}|DataAccess\\DataAccess.csproj|c:\\users\\msi\\source\\repos\\shipping\\dataaccess\\usersmodels\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{053E8EAF-9227-4EA3-B6F8-62070F5B51B9}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\usersmodels\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\msi\\source\\repos\\shipping\\businesslayer\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\msi\\source\\repos\\shipping\\businesslayer\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\contracts\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\msi\\source\\repos\\shipping\\businesslayer\\contracts\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E46CB81-C9F4-4DE1-87C8-69F785BFCD1B}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\contracts\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\base\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\base\\basedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\carrierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\carrierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C778DA-ED6E-4F45-B53D-15264657501C}|Domain\\Domains.csproj|c:\\users\\msi\\source\\repos\\shipping\\domain\\aspnetroleclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C778DA-ED6E-4F45-B53D-15264657501C}|Domain\\Domains.csproj|solutionrelative:domain\\aspnetroleclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55C778DA-ED6E-4F45-B53D-15264657501C}|Domain\\Domains.csproj|c:\\users\\msi\\source\\repos\\shipping\\domain\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C778DA-ED6E-4F45-B53D-15264657501C}|Domain\\Domains.csproj|solutionrelative:domain\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DD7D23-383C-4795-9AE9-0EEE8E06A288}|AppResources\\AppResources.csproj|c:\\users\\msi\\source\\repos\\shipping\\appresources\\shipping.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DD7D23-383C-4795-9AE9-0EEE8E06A288}|AppResources\\AppResources.csproj|solutionrelative:appresources\\shipping.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\blazorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\blazorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\services\\auth\\customauthstateprovidder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\services\\auth\\customauthstateprovidder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\helpers\\utilites\\refreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\helpers\\utilites\\refreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\helpers\\utilites\\jwtparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\helpers\\utilites\\jwtparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\auth\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\pages\\auth\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\auth\\register.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\pages\\roadmap.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\roadmap.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\services\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCABA309-58E0-452F-99CF-4BBF02CBC817}|Shipping\\ShippingApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\shipping\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCABA309-58E0-452F-99CF-4BBF02CBC817}|Shipping\\ShippingApp.csproj|solutionrelative:shipping\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\userresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\userresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\models\\tokenresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|c:\\users\\msi\\source\\repos\\shipping\\shippingapi\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D7D3FCFD-EAEA-4868-BE32-37F5B5F5EA92}|ShippingApi\\WebApi.csproj|solutionrelative:shippingapi\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\pages\\cities\\citiesedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\cities\\citiesedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\services\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\services\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\pages\\cities\\citiesview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\cities\\citiesview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\pages\\prodects\\productedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\prodects\\productedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\services\\countriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\services\\countriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\services\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\services\\citiesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\contracts\\icitiesservic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\contracts\\icitiesservic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\pages\\countries\\countriesview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\countries\\countriesview.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\pages\\countries\\countryedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\pages\\countries\\countryedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\contracts\\base\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\contracts\\base\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\shippingtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\shippingtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DD7D23-383C-4795-9AE9-0EEE8E06A288}|AppResources\\AppResources.csproj|c:\\users\\msi\\source\\repos\\shipping\\appresources\\messages.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{96DD7D23-383C-4795-9AE9-0EEE8E06A288}|AppResources\\AppResources.csproj|solutionrelative:appresources\\messages.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DD7D23-383C-4795-9AE9-0EEE8E06A288}|AppResources\\AppResources.csproj|c:\\users\\msi\\source\\repos\\shipping\\appresources\\messages.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96DD7D23-383C-4795-9AE9-0EEE8E06A288}|AppResources\\AppResources.csproj|solutionrelative:appresources\\messages.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96DD7D23-383C-4795-9AE9-0EEE8E06A288}|AppResources\\AppResources.csproj|c:\\users\\msi\\source\\repos\\shipping\\appresources\\messages.ar.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{96DD7D23-383C-4795-9AE9-0EEE8E06A288}|AppResources\\AppResources.csproj|solutionrelative:appresources\\messages.ar.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|c:\\users\\msi\\source\\repos\\shipping\\shared\\dtos\\countrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18E05D3D-8132-4B99-AD96-BE057D1644FF}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\countrydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\components\\pagenavigator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pagenavigator.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|c:\\users\\msi\\source\\repos\\shipping\\blazorapp\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E1093B63-9AA0-445D-BD8D-18C2A284903C}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\libman.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "ShippingApi\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Services\\TokenService.cs",
+              "RelativeToolTip": "ShippingApi\\Services\\TokenService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T20:32:37.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RefreshTokenRetriverService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\Services\\RefreshTokenRetriverService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\RefreshTokenRetriverService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\Services\\RefreshTokenRetriverService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\RefreshTokenRetriverService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIA2wBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T13:21:16.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Program.cs",
+              "RelativeDocumentMoniker": "ShippingApi\\Program.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Program.cs",
+              "RelativeToolTip": "ShippingApi\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:58:44.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\Auth\\UserService.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Services\\Auth\\UserService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\Auth\\UserService.cs",
+              "RelativeToolTip": "BlazorApp\\Services\\Auth\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAApwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T18:56:19.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "ShippingApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\WebApi.csproj",
+              "RelativeToolTip": "ShippingApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-17T15:29:07.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shipping\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Shipping\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shipping\\Services\\UserService.cs",
+              "RelativeToolTip": "Shipping\\Services\\UserService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAQwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T10:39:10.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ShippingApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\appsettings.json",
+              "RelativeToolTip": "ShippingApi\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-15T13:42:19.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CurrentUser.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Models\\CurrentUser.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Models\\CurrentUser.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Models\\CurrentUser.cs",
+              "RelativeToolTip": "BlazorApp\\Models\\CurrentUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-30T19:03:44.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ShippingApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ShippingApi\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAMwBIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T13:46:15.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterServciesHelper.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Services\\RegisterServciesHelper.cs",
+              "RelativeDocumentMoniker": "ShippingApi\\Services\\RegisterServciesHelper.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Services\\RegisterServciesHelper.cs",
+              "RelativeToolTip": "ShippingApi\\Services\\RegisterServciesHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:58:50.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContextConfig.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Services\\ContextConfig.cs",
+              "RelativeDocumentMoniker": "ShippingApi\\Services\\ContextConfig.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Services\\ContextConfig.cs",
+              "RelativeToolTip": "ShippingApi\\Services\\ContextConfig.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-23T11:41:25.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ShippingContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\DataAccess\\Context\\ShippingContextFactory.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Context\\ShippingContextFactory.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\DataAccess\\Context\\ShippingContextFactory.cs",
+              "RelativeToolTip": "DataAccess\\Context\\ShippingContextFactory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T10:36:51.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BusinessLayer.csproj",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\BusinessLayer.csproj",
+              "RelativeDocumentMoniker": "BusinessLayer\\BusinessLayer.csproj",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\BusinessLayer.csproj",
+              "RelativeToolTip": "BusinessLayer\\BusinessLayer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-26T13:13:10.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShippingContext.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\DataAccess\\Context\\ShippingContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Context\\ShippingContext.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\DataAccess\\Context\\ShippingContext.cs",
+              "RelativeToolTip": "DataAccess\\Context\\ShippingContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T10:37:03.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\DataAccess\\UsersModels\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "DataAccess\\UsersModels\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\DataAccess\\UsersModels\\ApplicationUser.cs",
+              "RelativeToolTip": "DataAccess\\UsersModels\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T10:09:58.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CarrierDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\CarrierDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\CarrierDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\CarrierDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\CarrierDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:33:32.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\Contracts\\IBaseService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Contracts\\IBaseService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\Contracts\\IBaseService.cs",
+              "RelativeToolTip": "BusinessLayer\\Contracts\\IBaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T10:38:48.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\Contracts\\IUserService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Contracts\\IUserService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\Contracts\\IUserService.cs",
+              "RelativeToolTip": "BusinessLayer\\Contracts\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T10:39:00.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BaseDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\Base\\BaseDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\Base\\BaseDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\Base\\BaseDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\Base\\BaseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:32:11.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Shared\\Common\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "Shared\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T09:31:59.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ShippingApi\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Services\\UserService.cs",
+              "RelativeToolTip": "ShippingApi\\Services\\UserService.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAIAwwIkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:42:13.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\Services\\BaseService.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\BaseService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BusinessLayer\\Services\\BaseService.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\BaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T15:23:40.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AspNetRoleClaim.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Domain\\AspNetRoleClaim.cs",
+              "RelativeDocumentMoniker": "Domain\\AspNetRoleClaim.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Domain\\AspNetRoleClaim.cs",
+              "RelativeToolTip": "Domain\\AspNetRoleClaim.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T13:52:26.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAACoAAAAAAAAAAAAqwDcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:10:19.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Program.cs",
+              "RelativeToolTip": "BlazorApp\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwDQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T08:49:42.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\AuthResponseDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\AuthResponseDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T11:01:23.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Shipping.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\AppResources\\Shipping.Designer.cs",
+              "RelativeDocumentMoniker": "AppResources\\Shipping.Designer.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\AppResources\\Shipping.Designer.cs",
+              "RelativeToolTip": "AppResources\\Shipping.Designer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAnwBgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T13:50:03.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BlazorApp.csproj",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\BlazorApp.csproj",
+              "RelativeDocumentMoniker": "BlazorApp\\BlazorApp.csproj",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\BlazorApp.csproj",
+              "RelativeToolTip": "BlazorApp\\BlazorApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-26T13:02:12.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Domain\\Log.cs",
+              "RelativeDocumentMoniker": "Domain\\Log.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Domain\\Log.cs",
+              "RelativeToolTip": "Domain\\Log.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T13:52:02.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Shared.csproj",
+              "RelativeDocumentMoniker": "Shared\\Shared.csproj",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Shared.csproj",
+              "RelativeToolTip": "Shared\\Shared.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-28T21:00:05.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "RefreshTokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Helpers\\Utilites\\RefreshTokenHandler.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Helpers\\Utilites\\RefreshTokenHandler.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Helpers\\Utilites\\RefreshTokenHandler.cs",
+              "RelativeToolTip": "BlazorApp\\Helpers\\Utilites\\RefreshTokenHandler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAiwFgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T19:36:12.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwA0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T09:06:35.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Register.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Auth\\Register.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Auth\\Register.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Auth\\Register.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Auth\\Register.razor",
+              "ViewState": "AgIAADsAAAAAAAAAAABBwEoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T10:34:21.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Auth\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Auth\\Login.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Auth\\Login.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Auth\\Login.razor",
+              "ViewState": "AgIAAB8AAAAAAAAAAABBwCUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-25T10:17:43.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "JwtParser.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Helpers\\Utilites\\JwtParser.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Helpers\\Utilites\\JwtParser.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Helpers\\Utilites\\JwtParser.cs",
+              "RelativeToolTip": "BlazorApp\\Helpers\\Utilites\\JwtParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T13:16:48.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CustomAuthStateProvidder.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\Auth\\CustomAuthStateProvidder.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Services\\Auth\\CustomAuthStateProvidder.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\Auth\\CustomAuthStateProvidder.cs",
+              "RelativeToolTip": "BlazorApp\\Services\\Auth\\CustomAuthStateProvidder.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T08:54:38.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\TokenDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\TokenDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\TokenDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T21:00:29.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Home.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAABBwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-28T09:04:40.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\App.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\App.razor",
+              "RelativeToolTip": "BlazorApp\\App.razor",
+              "ViewState": "AgIAAAQAAAAAAAAAAABBwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T08:50:00.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\Auth\\AuthService.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Services\\Auth\\AuthService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\Auth\\AuthService.cs",
+              "RelativeToolTip": "BlazorApp\\Services\\Auth\\AuthService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAASwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T11:29:06.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Roadmap.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Roadmap.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Roadmap.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Roadmap.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Roadmap.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T18:21:48.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RefreshTokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\RefreshTokenDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\RefreshTokenDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\RefreshTokenDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\RefreshTokenDto.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:43:36.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CountriesController.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Controllers\\CountriesController.cs",
+              "RelativeDocumentMoniker": "ShippingApi\\Controllers\\CountriesController.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Controllers\\CountriesController.cs",
+              "RelativeToolTip": "ShippingApi\\Controllers\\CountriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:42:52.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "libman.json",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\libman.json",
+              "RelativeDocumentMoniker": "BlazorApp\\libman.json",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\libman.json",
+              "RelativeToolTip": "BlazorApp\\libman.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-28T13:03:40.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UserResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\UserResultDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\UserResultDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\UserResultDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\UserResultDto.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T11:00:49.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "TokenResponse.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Models\\TokenResponse.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Models\\TokenResponse.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Models\\TokenResponse.cs",
+              "RelativeToolTip": "BlazorApp\\Models\\TokenResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T13:03:06.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "BlazorApp\\wwwroot\\appsettings.json",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "BlazorApp\\wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-25T10:16:22.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\UserDto.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T07:44:03.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ProductEdit.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\prodects\\ProductEdit.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\prodects\\ProductEdit.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\prodects\\ProductEdit.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\prodects\\ProductEdit.razor",
+              "ViewState": "AgIAACIAAAAAAAAAAAAkwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:47:57.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CountriesService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\CountriesService.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Services\\CountriesService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\CountriesService.cs",
+              "RelativeToolTip": "BlazorApp\\Services\\CountriesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T15:36:42.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CitiesEdit.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Cities\\CitiesEdit.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Cities\\CitiesEdit.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Cities\\CitiesEdit.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Cities\\CitiesEdit.razor",
+              "ViewState": "AgIAABMAAAAAAAAAACBjwCEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:14:03.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CitiesView.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Cities\\CitiesView.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Cities\\CitiesView.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Cities\\CitiesView.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Cities\\CitiesView.razor",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwCUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:13:52.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CitiesService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\CitiesService.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Services\\CitiesService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\CitiesService.cs",
+              "RelativeToolTip": "BlazorApp\\Services\\CitiesService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T15:12:29.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ICitiesServic.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Contracts\\ICitiesServic.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Contracts\\ICitiesServic.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Contracts\\ICitiesServic.cs",
+              "RelativeToolTip": "BlazorApp\\Contracts\\ICitiesServic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T15:11:12.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "ShippingApi\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\ShippingApi\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "ShippingApi\\Controllers\\CitiesController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAIwCEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T09:36:06.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ShippingTypeDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\ShippingTypeDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\ShippingTypeDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\ShippingTypeDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\ShippingTypeDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:39:59.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Messages.resx",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\AppResources\\Messages.resx",
+              "RelativeDocumentMoniker": "AppResources\\Messages.resx",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\AppResources\\Messages.resx",
+              "RelativeToolTip": "AppResources\\Messages.resx",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAkwKEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-17T07:39:36.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Messages.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\AppResources\\Messages.Designer.cs",
+              "RelativeDocumentMoniker": "AppResources\\Messages.Designer.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\AppResources\\Messages.Designer.cs",
+              "RelativeToolTip": "AppResources\\Messages.Designer.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAuwL8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:39:28.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Messages.ar.resx",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\AppResources\\Messages.ar.resx",
+              "RelativeDocumentMoniker": "AppResources\\Messages.ar.resx",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\AppResources\\Messages.ar.resx",
+              "RelativeToolTip": "AppResources\\Messages.ar.resx",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAkwKEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-09-17T07:39:25.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CityDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\CityDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\CityDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\CityDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\CityDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:38:59.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CountryDto.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\CountryDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dtos\\CountryDto.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shared\\Dtos\\CountryDto.cs",
+              "RelativeToolTip": "Shared\\Dtos\\CountryDto.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T07:37:25.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Contracts\\base\\IBaseService.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Contracts\\base\\IBaseService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Contracts\\base\\IBaseService.cs",
+              "RelativeToolTip": "BlazorApp\\Contracts\\base\\IBaseService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAtwAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T21:24:35.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\base\\BaseService.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Services\\base\\BaseService.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Services\\base\\BaseService.cs",
+              "RelativeToolTip": "BlazorApp\\Services\\base\\BaseService.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswE0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T21:21:18.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CountryEdit.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Countries\\CountryEdit.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Countries\\CountryEdit.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Countries\\CountryEdit.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Countries\\CountryEdit.razor",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T21:09:22.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\_Imports.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\_Imports.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\_Imports.razor",
+              "RelativeToolTip": "BlazorApp\\_Imports.razor",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:22:48.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CountriesView.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Countries\\CountriesView.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Pages\\Countries\\CountriesView.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Pages\\Countries\\CountriesView.razor",
+              "RelativeToolTip": "BlazorApp\\Pages\\Countries\\CountriesView.razor",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:21:51.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "PageNavigator.razor",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Components\\PageNavigator.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\PageNavigator.razor",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\BlazorApp\\Components\\PageNavigator.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\PageNavigator.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-16T15:18:31.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\msi\\source\\repos\\Shipping\\Shipping\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Shipping\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\msi\\source\\repos\\Shipping\\Shipping\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Shipping\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T10:40:40.125Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

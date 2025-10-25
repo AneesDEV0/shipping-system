@@ -1,0 +1,69 @@
+﻿@page "/Country/Edit"
+@page "/Country/Edit/{Id:guid}"
+@using global::Shared.Dtos
+@inject ICountriesService countriesService
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header text-dark">
+            <h3 class="card-title mb-0">
+                @(Id.HasValue && Id.Value != Guid.Empty ? "Edit Country" : "Add Country")
+            </h3>
+        </div>
+        <div class="card-body">
+            <EditForm Model="@country" OnValidSubmit="Save">
+                <DataAnnotationsValidator></DataAnnotationsValidator>
+                <ValidationSummary></ValidationSummary>
+
+                <div class="mb-3">
+                    <label for="CountryEname" class="form-label">Country Name (EN)</label>
+                    <InputText id="CountryEname" placeholder="Enter Country Name"
+                               @bind-Value="country.CountryEname" class="form-control" />
+                    <ValidationMessage For="() => country.CountryEname" class="text-danger" />
+                </div>
+
+                <div class="mb-3">
+                    <label for="CountryAname" class="form-label">Country Name (AR)</label>
+                    <InputText id="CountryAname" placeholder="Enter Country Name AR"
+                               @bind-Value="country.CountryAname" class="form-control" />
+                    <ValidationMessage For="() => country.CountryAname" class="text-danger" />
+                </div>
+
+                <div class="d-grid gap-2 mt-4">
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        @(Id.HasValue && Id.Value != Guid.Empty ? "Update" : "Save")
+                    </button>
+                </div>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public Guid? Id { get; set; }  
+    [Inject]
+    public NavigationManager NavigationManager { get; set; }
+
+    public CountryDto country { get; set; } = new CountryDto();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (Id.HasValue && Id.Value != Guid.Empty)
+        {
+            var response = await countriesService.GetById(Id.Value);
+            if (response.Success && response.Data != null)
+                country = response.Data;
+        }
+    }
+
+    private async Task Save()
+    {
+        if (Id.HasValue && Id.Value != Guid.Empty)
+            await countriesService.Update(Id.Value, country);
+        else
+            await countriesService.Add(country);
+        NavigationManager.NavigateTo("countries");
+
+    }
+}

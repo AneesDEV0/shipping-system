@@ -1,0 +1,70 @@
+﻿@page "/Cities"
+@using BlazorApp.Components
+@inject ICitiesService service
+@inject NavigationManager navManager
+
+<PageTitle>Cities</PageTitle>
+
+<PageNavigator Title="Cities" Route="/Cities/Add" />
+<br />
+
+@if (response is null || response.Data == null || !response.Data.Any())
+{
+    <h2>No Cities available :(</h2>
+}
+else
+{
+    <div class="d-flex justify-content-end mb-3">
+        <button class="btn btn-success" @onclick="AddNew">+ Add City</button>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>City Name (EN)</th>
+                <th>أسم المدينة (AR)</th>
+                <th>Country Name (EN)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var city in response.Data)
+            {
+                <tr>
+                    <td>@city.Id</td>
+                    <td>@city.CityEname</td>
+                    <td>@city.CityAname</td>
+                    <td>@city.CountryEname</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="City/Edit/@city.Id" class="btn btn-secondary">Edit</a>
+                            <button class="btn btn-danger" @onclick="() => ConfirmDelete(city)">
+                                Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    public ApiResponse<List<CityDto>> response { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        response = await service.GetAll();
+    }
+
+    private async Task ConfirmDelete(CityDto item)
+    {
+
+    }
+
+    private void AddNew()
+    {
+        navManager.NavigateTo("/City/Edit");
+    }
+}

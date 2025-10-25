@@ -1,0 +1,54 @@
+﻿@page "/Products/{Id:int}"
+@inject ProdectService ProductService
+
+<PageTitle>Product Details</PageTitle>
+
+<div class="container my-5">
+    @if (product is null)
+    {
+        <div class="text-center">
+            <div class="spinner-border text-primary" role="status"></div>
+            <p class="mt-3">Loading product details...</p>
+        </div>
+    }
+    else
+    {
+        <div class="card shadow-lg border-0 rounded-4">
+            <div class="row g-0">
+                <div class="col-md-5">
+                    <img src="@product.ImageName" class="img-fluid rounded-start" alt="@product.ProdectName" />
+                </div>
+                <div class="col-md-7">
+                    <div class="card-body p-4">
+                        <h2 class="card-title text-primary fw-bold">@product.ProdectName</h2>
+                        <p class="card-text text-muted mb-4">@product.Description</p>
+
+                        <h4 class="text-success fw-bold">Price: $@product.Price</h4>
+                        <p class="text-secondary">Available stock: @product.Price</p>
+
+                        <div class="d-flex gap-3 mt-4">
+                            <button class="btn btn-primary btn-lg">
+                                <i class="bi bi-cart"></i> Add to Cart
+                            </button>
+                            <button class="btn btn-outline-secondary btn-lg">
+                                <i class="bi bi-heart"></i> Add to Wishlist
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private ProductModel? product;
+
+    protected override async Task OnInitializedAsync()
+    {
+        product =  ProductService.GetProdectById(Id);
+    }
+}

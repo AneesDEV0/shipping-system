@@ -1,0 +1,54 @@
+﻿@page "/Products"
+
+@inject ProdectService ProdectService
+
+<PageTitle>Prodects</PageTitle>
+
+<br />
+@if (ProdectsList is null){
+    <h2>No Prodects is Here :(</h2>
+
+    }else{
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var prodect in ProdectsList)
+            {
+                <tr>
+                    <td>@prodect.Id</td>
+                    <td>@prodect.ProdectName</td>
+                    <td>@prodect.Price $</td>
+                    <td>@prodect.Description</td>
+                    <td>
+                        <div>
+                            <a href="Products/@prodect.Id" class="btn btn-primary">View</a>
+                            <a href="Product/Edit/@prodect.Id" class="btn btn-secondary">Edit</a>
+
+                        </div>
+                    </td>
+                </tr>
+            }
+    </tbody>
+</table>
+}
+
+
+@code {
+    public List<ProductModel> ProdectsList { get; set; }
+
+    protected override Task OnInitializedAsync()
+    {
+        ProdectsList = ProdectService.GetAllProdects();
+        return base.OnInitializedAsync();
+    }
+
+}

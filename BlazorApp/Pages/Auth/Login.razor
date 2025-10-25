@@ -1,0 +1,58 @@
+﻿@page "/login"
+@using BlazorApp.Services.Auth
+@using Shared.Dtos
+@inject NavigationManager Navigation
+@inject IAuthService authService
+
+<h3>Login</h3>
+
+<EditForm Model="@userModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label>Email</label>
+        <InputText @bind-Value="userModel.Email" class="form-control" />
+        <ValidationMessage For="@(() => userModel.Email)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Password</label>
+        <InputText @bind-Value="userModel.Password" type="password" class="form-control" />
+        <ValidationMessage For="@(() => userModel.Password)" />
+    </div>
+
+
+
+ 
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="alert alert-info mt-3">@message</div>
+}
+
+@code {
+    [Inject]
+    public AuthenticationStateProvider _authStateProvider { get; set; }
+
+    private LoginDto userModel = new LoginDto();
+    private string? message;
+
+    private async Task HandleLogin()
+    {
+        var result = await authService.login(userModel);
+        if (result.Success)
+        {
+            ((CustomAuthStateProvidder)_authStateProvider)
+        .NotifyUserAuthentication(result!.Data!.AccessToken);
+            Navigation.NavigateTo("/");
+        }
+        else
+        {
+            message = "An Error Found !";
+        }
+    }
+}

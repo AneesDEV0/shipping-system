@@ -1,0 +1,39 @@
+﻿@page "/Students"
+
+<PageTitle>Students</PageTitle>
+
+<div class="d-flex col-4" >
+    <select class="form-select" @bind="DepartId" @bind:event="oninput" @onchange="GetStudent">
+        <option value="0">All Student</option>
+        @foreach (var dept in DepartmentList)
+        {
+            <option value="@dept.Id">@dept.Name</option>
+        }
+    </select>
+
+    <input type="button" value="Get All" class="btn btn-secondary ms-2" @onclick="GetStudent" />
+</div>
+
+<br />
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var student in StudentList)
+        {
+            <tr>
+                <td>@student.Id</td>
+                <td>@student.Name</td>
+                <td>@student.Address</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

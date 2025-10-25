@@ -1,0 +1,40 @@
+﻿@using BlazorApp.Services.Auth
+@using Blazored.Toast
+@inherits LayoutComponentBase
+@inject NavigationManager navigation
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <AuthorizeView>
+                <Authorized>
+                    <p class="my-3 me-3 text-black">Hello, @context.User.Identity?.Name!</p>
+                    <button class="btn btn-primary" @onclick="Logout">Sign out</button>
+                </Authorized>
+                <NotAuthorized>
+                    <a class="btn btn-primary" href="login">Login</a>
+                    <a class="btn btn-primary" href="Register">Register</a>
+                </NotAuthorized>
+            </AuthorizeView>
+        </div>
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+
+@code{
+    [Inject] 
+    public AuthenticationStateProvider authenticationState { get; set; }
+
+ 
+
+    void Logout()
+    {
+        ((CustomAuthStateProvidder)authenticationState).NotifyUserLogout();
+    }
+
+}

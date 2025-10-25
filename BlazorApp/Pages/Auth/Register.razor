@@ -1,0 +1,86 @@
+﻿@page "/register"
+@using BlazorApp.Services.Auth
+@using Shared.Dtos
+@inject NavigationManager Navigation
+@inject IAuthService authService
+
+<h3>Register</h3>
+
+<EditForm Model="@userModel" OnValidSubmit="HandleRegister">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label>Email</label>
+        <InputText @bind-Value="userModel.Email" class="form-control" />
+        <ValidationMessage For="@(() => userModel.Email)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Password</label>
+        <InputText @bind-Value="userModel.Password" type="password" class="form-control" />
+        <ValidationMessage For="@(() => userModel.Password)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Confirm Password</label>
+        <InputText @bind-Value="userModel.ConfirmPassword" type="password" class="form-control" />
+        <ValidationMessage For="@(() => userModel.ConfirmPassword)" />
+    </div>
+
+    <div class="mb-3">
+        <label>First Name</label>
+        <InputText @bind-Value="userModel.FirstName" class="form-control" />
+        <ValidationMessage For="@(() => userModel.FirstName)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Last Name</label>
+        <InputText @bind-Value="userModel.LastName" class="form-control" />
+        <ValidationMessage For="@(() => userModel.LastName)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Phone</label>
+        <InputText @bind-Value="userModel.Phone" class="form-control" />
+        <ValidationMessage For="@(() => userModel.Phone)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+</EditForm>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="alert alert-info mt-3">@message</div>
+}
+
+@code {
+    private UserDto userModel = new UserDto();
+    private string? message;
+    [Inject]
+    public AuthenticationStateProvider _authStateProvider { get; set; }
+
+    private async Task HandleRegister()
+    {
+        var isSuccess = await authService.Register(userModel);
+        if (isSuccess)
+        {
+            var loginResponse = await authService.login(new LoginDto { Email = userModel.Email, Password = userModel.Password });
+            if (loginResponse.Success)
+            {
+                ((CustomAuthStateProvidder)_authStateProvider)
+                 .NotifyUserAuthentication(loginResponse!.Data!.AccessToken);
+                Navigation.NavigateTo("/");
+            }
+            else
+            {
+                message = "Login failed. Please try again.";
+
+            }
+        }
+        else
+        {
+            message = "Registration failed. Please try again.";
+        }
+    }
+}

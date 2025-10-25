@@ -1,0 +1,15 @@
+﻿<div class=" p-2" style="border:2px solid red"> 
+    <h2>@value</h2>
+    <input placeholder="Enter Number.." class="form-control-plaintext" @bind="value" @bind:event="oninput" />
+    <button @onclick="Change">Do</button>
+</div>
+@code {
+    private string value { get; set; } = "0";
+    [Parameter]
+    public EventCallback<String> DataEvent { get; set; }
+    void Change()
+    {
+        DataEvent.InvokeAsync(value);
+    }
+
+}

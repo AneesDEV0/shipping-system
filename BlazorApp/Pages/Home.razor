@@ -1,0 +1,16 @@
+﻿@page "/"
+@using BlazorApp.Components
+@using Blazored.Toast.Services
+@inject Blazored.Toast.Services.IToastService toastService
+
+<PageTitle>Home</PageTitle>
+
+
+<button @onclick="ShowToast">Show Toast</button>
+
+@code{
+    private void ShowToast()
+    {
+        toastService.ShowSuccess("Login successful!");
+    }
+}

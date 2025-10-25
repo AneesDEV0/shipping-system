@@ -1,0 +1,68 @@
+﻿@page "/countries"
+@using BlazorApp.Components
+@inject ICountriesService countriesService
+@inject NavigationManager navManager
+
+<PageTitle>Countries</PageTitle>
+
+<PageNavigator Title="Countries" Route="/Country/Add" />
+<br />
+
+@if (response is null || response.Data == null || !response.Data.Any())
+{
+    <h2>No Countries available :(</h2>
+}
+else
+{
+    <div class="d-flex justify-content-end mb-3">
+        <button class="btn btn-success" @onclick="AddNew">+ Add Country</button>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Country Name (EN)</th>
+                <th>أسم الدولة (AR)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var country in response.Data)
+            {
+                <tr>
+                    <td>@country.Id</td>
+                    <td>@country.CountryEname</td>
+                    <td>@country.CountryAname</td>
+                    <td>
+                        <div class="btn-group">
+                            <a href="Country/Edit/@country.Id" class="btn btn-secondary">Edit</a>
+                            <button class="btn btn-danger" @onclick="() => ConfirmDelete(country)">
+                                Delete
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    public ApiResponse<List<CountryDto>> response { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        response = await countriesService.GetAll();
+    }
+
+    private async Task ConfirmDelete(CountryDto item)
+    {
+
+    }
+
+    private void AddNew()
+    {   
+        navManager.NavigateTo("/Country/Edit");
+    }
+}
